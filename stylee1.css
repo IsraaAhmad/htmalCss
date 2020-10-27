@@ -1,0 +1,60 @@
+.blog{
+font-family: Heebo;
+font-style: normal;
+font-weight: bold;
+font-size: 44px;
+line-height: 60px;
+color: #21243D;
+}
+.margintotal{
+    margin-left: 150px;
+   margin-right: 150px;
+}
+.workimg{
+    width: 681px;
+    height: 460px;
+}
+.number1{
+    /* 2018 */
+   
+   /* Rectangle 2 */
+   width: 62px;
+   height: 25px;
+   
+   
+   background: #FF7C7C;
+   border-radius: 16px;
+   
+   text-align: center;
+   color: white;
+   font-weight: 900;
+   font-size: 18px;
+   padding-top: 3px;
+   }
+   .heading1{
+    width: 506px;
+    height: 45px;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 60px;
+    /* or 200% */
+    
+    
+    /* Dark Color */
+    
+    color: #21243D;
+   }
+   .heading2{
+    width: 506px;
+    height: 82px;
+    left: 239px;
+    top: 984px;
+    
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 60px;
+   }

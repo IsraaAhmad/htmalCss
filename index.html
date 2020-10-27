@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="stylee.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+</head>
+<body>
+    <div class="topnav" id="myTopnav">
+        <a></a>
+        <a href="#Works" class="active">Works</a>
+        <a href="#Blog">Blog</a>
+        <a href="#Contact">Contact</a>
+        <a href="javascript:void(0);"  style="color: black;"class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    <div class="FlexRow TotalMargin top" style="align-items: center;" id=firstPar>
+        <div >
+            <p class="titles" style="width: 450px;">Hi, I am John, Creative Technologist</p>
+            <p class="normalFont" style="width: 450px;">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                 Velit officia consequat duis enim velit mollit.
+                 Exercitation veniam consequat sunt nostrud amet.
+            </p>
+            <button class="but">Download Resume</button>
+       </div>
+       <img src="Ellipse 1.png" class="image" alt="">
+
+
+    </div>
+
+
+    <div class="secondPar FlexColumn " style="background-color:#EDF7FA;padding-bottom: 15px;" >
+        <div class="p1 FlexRow TotalMargin" style="justify-content: space-between;">
+            <div> Recent posts</div>
+            <div class="viewAll">View all</div>
+        </div>
+        <div class="p2 FlexRow TotalMargin" id=secpar >
+            <div class=" FlexColumn" style="background-color: white;margin-top: 25px;margin-bottom: 25px;margin-right: 25px;padding-bottom: 35px;padding-left: 5px;" >
+                <div class="Fbig">Making a design system from scratch</div>
+                <div class="Fmeduim">12 Feb 2020<span style="margin-left: 20px;border-left: solid 2px;padding-left: 20px;">Design, Pattern</span></div>
+                <p class="Fsmall">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                     Velit officia consequat duis enim velit mollit. 
+                    Exercitation veniam consequat sunt nostrud amet.</p>
+            </div>
+            <div class=" FlexColumn" style="background-color: white;margin-top: 25px;margin-bottom: 25px;padding-bottom: 35px; " id=nomarge>
+              <div class="Fbig">Creating pixel perfect icons in Figma</div>
+              <div class="Fmeduim">12 Feb 2020<span style="margin-left: 20px;border-left: solid 2px;padding-left: 20px;">Figma, Icon Design</span></div>
+              <p class="Fsmall">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                  Velit officia consequat duis enim velit mollit. 
+                 Exercitation veniam consequat sunt nostrud amet.</p>
+            </div>
+ 
+        </div> 
+    </div>
+
+    <div class="TotalMargin">  
+        
+            <p class="mid">Featured works</p>
+            <div class="FlexRow tocolumn" style="border-bottom:1px solid #E0E0E0;margin-right: 100px;" >
+                <div>
+                    <img src="Rectangle 30.png" class="bimg" style="height: 200px;">
+                </div>
+                
+                <div>
+                    <p class="Fbig">Designing Dashboards</p>
+                    <div style="margin-left: 17px;" class="FlexRow">
+                        <div style="margin-right: 20px;" class="number">2020</div>
+                        <div class="text">Dashboard</div>
+                        </div>
+                    <p style="margin-left: 17px;">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
+                        Velit officia consequat duis enim velit mollit. 
+                        Exercitation veniam consequat sunt nostrud amet.</p>
+                </div>
+            </div>
+            <div class="FlexRow tocolumn" style="border-bottom:1px solid #E0E0E0;margin-right: 100px;">
+                <div>
+                    <img src="Rectangle 32.png" class="bimg" style="height: 200px;">
+                </div>
+                
+                <div >
+                    <p class="Fbig">Vibrant Portraits of 2020 </p>
+                    <div style="margin-left: 17px;" class="FlexRow">
+                        <div style="margin-right: 20px;" class="number">2018</div>
+                        <div class="text">Illustration </div>
+                        </div>
+                    <p style="margin-left: 17px;">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
+                        Velit officia consequat duis enim velit mollit. 
+                        Exercitation veniam consequat sunt nostrud amet.</p>
+                </div>
+            </div>
+    
+            <div class="FlexRow tocolumn" style="border-bottom:1px solid #E0E0E0;margin-right: 100px;">
+                <div>
+                    <img src="Rectangle 34.png" class="bimg" style="height: 200px;">
+                </div>
+                
+                <div>
+                    <p class="Fbig">36 Days of Malayalam type  </p>
+                    <div style="margin-left: 17px;" class="FlexRow">
+                        <div style="margin-right: 20px;" class="number">2018</div>
+                        <div class="text">Typography
+                        </div>
+                        </div>
+                    <p style="margin-left: 17px;">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
+                        Velit officia consequat duis enim velit mollit. 
+                        Exercitation veniam consequat sunt nostrud amet.</p>
+                </div>
+            </div>
+    
+       
+    </div>
+    <div class="footerr">
+        <img src="fb.png" class="icon">
+        <img src="Vector (1).png" class="icon">
+        <img src="Vector.png" class="icon" >
+        <img src="Linkedin.png" class="icon">
+    </div>
+    <div style="text-align: center;">Copyright ©2020 All rights reserved </div>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+</body>
+</html>
